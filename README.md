@@ -23,19 +23,19 @@ This is a simple movie booking website. It's designed to adapt smoothly to any s
 
 ### Features
 
-Used local storage for storing the movies data.
-Responsive design for seamless viewing on different devices.
-Clean and intuitive user interface.
+1. Used local storage for storing the movies data.
+2. Responsive design for seamless viewing on different devices.
+3. Clean and intuitive user interface.
 
 ### Installation
 
 To run this project locally, follow these steps:
 
-Clone this repository to your local machine.
-Navigate to the project directory.
-Run npm install to install dependencies.
-Run npm dev to start the development server.
-Open your web browser and go to http://localhost:5173 to view the website.
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Run npm install to install dependencies.
+4. Run npm dev to start the development server.
+5. Open your web browser and go to http://localhost:5173 to view the website.
 
 ### Packages
 
