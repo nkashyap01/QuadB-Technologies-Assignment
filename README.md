@@ -51,7 +51,7 @@ To run this project locally, follow these steps:
 ### Laptop
 ![Screenshot 2024-05-04 003843](https://github.com/nkashyap01/QuadB-Technologies-Assignment/assets/121566993/acaed961-080b-44d7-b1ae-ba8643bebee1)
 
-![Screenshot 2024-05-04 003401](https://github.com/nkashyap01/QuadB-Technologies-Assignment/assets/121566993/4951c8d9-a6d9-4318-a7ee-b306ed0296c9)
+![Screenshot summary](https://github.com/nkashyap01/QuadB-Technologies-Assignment/assets/121566993/6931db08-975b-4e2f-9701-cf729168badd)
 
 ![Screenshot 2024-05-04 003414](https://github.com/nkashyap01/QuadB-Technologies-Assignment/assets/121566993/20984385-3c75-4fbd-bc3b-4b441b10d550)
 
