@@ -51,9 +51,13 @@ Open your web browser and go to http://localhost:5173 to view the website.
 ### Laptop
 ![Screenshot (410)](https://github.com/nkashyap01/QuadB-Technologies-Assignment/assets/121566993/d9fd3d27-9dd5-4667-99fa-0deb10c4468d)
 
+![Screenshot 2024-05-04 003401](https://github.com/nkashyap01/QuadB-Technologies-Assignment/assets/121566993/4951c8d9-a6d9-4318-a7ee-b306ed0296c9)
+
+![Screenshot 2024-05-04 003414](https://github.com/nkashyap01/QuadB-Technologies-Assignment/assets/121566993/20984385-3c75-4fbd-bc3b-4b441b10d550)
+
 ### Tablet
 ![Screenshot 2024-05-03 230430](https://github.com/nkashyap01/QuadB-Technologies-Assignment/assets/121566993/d5820b04-d1f1-4bdc-8fce-6e68021c36bf)
 
-##$ Mobile
+## Mobile
 ![Screenshot 2024-05-03 230404](https://github.com/nkashyap01/QuadB-Technologies-Assignment/assets/121566993/1d207153-c1d1-442b-8886-f3042f14b673)
 
