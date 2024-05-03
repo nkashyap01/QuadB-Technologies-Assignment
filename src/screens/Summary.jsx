@@ -12,19 +12,11 @@ const Summary = () => {
 
   const movie = movies.find((movie) => movie.show.id === parseInt(id));
 
-  const {
-    genres,
-    image,
-    name,
-    language,
-    premiered: released,
-    rating,
-    runtime,
-    status,
-    network,
-  } = movie.show;
+  const { genres, image, name, language, rating, summary } = movie.show;
 
-  const country = network?.country?.name;
+  const cleanedSummary = summary
+    ? summary.replace(/<\/?p[^>]*>/g, "").replace(/<\/?b[^>]*>/g, "")
+    : "Unavailable";
 
   return (
     <div className="bg-[#2C333F] h-screen  pt-20 flex items-center justify-center">
@@ -62,11 +54,7 @@ const Summary = () => {
               ))}
             </ul>
 
-            <span>Status : {status ? status : "Unavailable"} </span>
-
-            <span>Runtime : {runtime ? runtime : "Unavailable"}</span>
-            <span>Released : {released ? released : "Unavailable"}</span>
-            <span>Country : {country ? country : "Unavailable"}</span>
+            <span>Summary : {cleanedSummary}</span>
 
             <div
               className="flex gap-1 absolute bg-black text-white px-1  
