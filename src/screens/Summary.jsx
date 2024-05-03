@@ -12,7 +12,16 @@ const Summary = () => {
 
   const movie = movies.find((movie) => movie.show.id === parseInt(id));
 
-  const { genres, image, name, language, rating, summary } = movie.show;
+  const {
+    genres,
+    image,
+    name,
+    language,
+    premiered: released,
+    rating,
+    status,
+    summary,
+  } = movie.show;
 
   const cleanedSummary = summary
     ? summary.replace(/<\/?p[^>]*>/g, "").replace(/<\/?b[^>]*>/g, "")
