@@ -1,12 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import { IoMdStar } from "react-icons/io";
 import { useSelector } from "react-redux";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { ShimmerThumbnail } from "react-shimmer-effects";
+import { useDispatch } from "react-redux";
+
+import { setIsOpen } from "../redux/movieSlice";
 
 const Summary = () => {
-  const [isOpen, setIsOpen] = useState(false);
   const { movies } = useSelector((state) => state.movie);
+  const { isOpen } = useSelector((state) => state.movie);
+
+  const dispatch = useDispatch();
 
   const { id } = useParams();
 
@@ -17,9 +22,9 @@ const Summary = () => {
     image,
     name,
     language,
+    status,
     premiered: released,
     rating,
-    status,
     summary,
   } = movie.show;
 
@@ -79,7 +84,7 @@ const Summary = () => {
             </div>
 
             <button
-              onClick={() => setIsOpen(true)}
+              onClick={() => dispatch(setIsOpen(true))}
               className="bg-black py-2 absolute bottom-1 right-1 text-[#E2B616] rounded-md w-full"
             >
               Book Show
@@ -112,7 +117,7 @@ const Summary = () => {
             />
             <button
               className="bg-black py-2  text-[#E2B616] rounded-md w-full"
-              onClick={() => setIsOpen(false)}
+              onClick={() => dispatch(setIsOpen(false))}
             >
               Back to Summary
             </button>
